@@ -1,0 +1,76 @@
+.App {
+    height: 100vh;
+    width: 80vw;
+    margin: 0 auto;
+}
+
+.App input#filterText,
+.App button {
+    border: 1px solid transparent;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: larger;
+    margin: 40px 0;
+}
+
+.App input#filterText {
+    width: 80%;
+}
+
+.App button {
+    margin-left: 20px;
+    width: 10%;
+    background-color: coral;
+}
+
+.App span {
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+
+.App section.products {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.App section.products .prod-card {
+    width: 200px;
+    height: 450px;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: white;
+    font-weight: bold;
+}
+
+.App section.products .prod-card .prod-pic {
+    width: 190px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+.App section.products .prod-card .prod-pic img {
+    width: 80%;
+    height: 300px;
+    object-fit: contain;
+}
+
+.App section.products .prod-card .prod-data {
+    margin: 0 20px;
+}
+.App section.products .prod-card .prod-data .prod-title{
+    font-size: large;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.App section.products .prod-card .prod-data .prod-rating code{
+    color: gold;
+    font-size: 20px;
+}
+.App section.products .prod-card .prod-data .prod-price{
+    color:darkgreen;
+    font-size: larger;
+}
